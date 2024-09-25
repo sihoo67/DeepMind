@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도잉 봇 | Doing Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <button class="tablink" onclick="openTab('botIntro')">봇 소개</button>
+        <button class="tablink" onclick="openTab('botInvite')">봇 초대</button>
+        <button class="tablink" onclick="openTab('commands')">명령어</button>
+        <button class="tablink" onclick="openTab('development')">개발/지원</button>
+    </div>
+
+    <div id="botIntro" class="tabcontent">
+        <h2>도잉 봇</h2>
+        <p>안녕하세요! 저는 도잉(Doing)입니다. 여러분의 다양한 활동을 돕기 위해 만들어진 멀티 기능 디스코드 봇입니다.</p>
+        <p>제가 할 수 있는 몇 가지 멋진 일들을 소개하자면:</p>
+        <ul>
+            <li><b>/점메추</b>: 점심 메뉴를 추천해드릴게요! 고민하지 말고 저에게 맡겨주세요.</li>
+            <li><b>/오노추</b>: 무슨 노래를 들을지 모르겠다고요? 제가 랜덤으로 노래를 추천해드려요.</li>
+            <li><b>/오겜추</b>: 오늘 어떤 게임을 할지 고민이라면, 제가 추천해드릴 게임을 즐겨보세요.</li>
+        </ul>
+        <p>저는 언제나 여러분의 엔터테인먼트와 결정을 돕기 위해 대기하고 있습니다. 즐겁게 사용해주세요!</p>
+    </div>
+
+    <div id="botInvite" class="tabcontent" style="display:none;">
+        <h2>도잉 봇 초대</h2>
+        <p>버튼을 누르면 도잉 봇 초대 페이지로 이동합니다!</p>
+        <button onclick="inviteBot()">도잉 봇 초대</button>
+    </div>
+
+    <div id="commands" class="tabcontent" style="display:none;">
+        <h2>명령어</h2>
+        <ul>
+            <li><b>/점메추</b>: 점심 메뉴 추천</li>
+            <li><b>/오노추</b>: 노래 추천</li>
+            <li><b>/오겜추</b>: 게임 추천</li>
+        </ul>
+    </div>
+
+    <div id="development" class="tabcontent" style="display:none;">
+        <h2>개발/지원</h2>
+        <p>개발자: 핑구 (<a href="https://github.com/sihoo67" target="_blank">Github: sihoo67</a>)</p>
+        <p>프로젝트: 하코 사이드 프로젝트 2기</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
