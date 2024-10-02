@@ -10,14 +10,14 @@ body {
 /* 네비게이션 바 */
 .navbar {
     display: flex;
-    background-color: #333;
+    background-color: #333; /* 네비게이션 바 색상 */
     justify-content: center;
     padding: 10px 0;
 }
 
 .navbar .tablink {
-    background-color: #333;
-    color: white;
+    background-color: #333; /* 버튼 배경색을 네비게이션 바와 동일하게 */
+    color: white; /* 글자색 */
     padding: 14px 20px;
     margin: 0 5px;
     border: none;
@@ -28,7 +28,7 @@ body {
 }
 
 .navbar .tablink:hover {
-    background-color: #555;
+    background-color: #555; /* 마우스 오버 시 색상 */
 }
 
 /* 각 탭의 콘텐츠 */
